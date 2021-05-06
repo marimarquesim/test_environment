@@ -258,7 +258,7 @@ footer {
 
   .logo-serac {
     margin-left: -60%;
-    width: 200%;
+    width: 220%;
     height: 80%;
   }
 
@@ -564,10 +564,11 @@ footer {
           }
           
           .celular {
-              height: 40vh; 
+            width: 52vw;
+              height: 35vh; 
               position: absolute;
               margin-top: -27%;
-             margin-left: -7vw;
+             margin-left: -4vw;
           }
 
           .container-fluid-3 .col-sm-4 {
@@ -714,6 +715,17 @@ footer {
 
 
 @media screen and (min-width: 400px) {
+  .glider-next, .glider-prev{
+    right: 0px;
+    padding-right: 9%;
+    margin-left: 4%;
+    padding-left: 4%;
+    margin-right: 9%;
+    left: 0px;
+    color: #d19438;
+  }
+  
+  
   .jumbotron {
     background-color: #4b78b7; 
     color: #fff; 
@@ -733,8 +745,8 @@ footer {
     width: 95%; 
     height: 95%; 
     position: absolute;
-    margin-top: -72vh;
-    margin-left: 2vw;
+    margin-top: -355px;
+    margin-left: 20px;
     display: block;
    
   }
@@ -934,11 +946,11 @@ footer {
 }
 
 .celular {
-    
-    height: 100%; 
+  width: 50vw;
+    height: 120%; 
     position: absolute;
     margin-top: -6%;
-   margin-left: -6%;
+   margin-left: -5%;
    /* transform: rotate(2deg); */
 }
 
@@ -1095,7 +1107,7 @@ footer {
   width: 56%;
   height: 26000%;
   margin-left: 52%;
-  margin-top: -55.5%;
+  margin-top: -56%;
   display:block;
 }
 
@@ -1151,27 +1163,28 @@ footer {
   background-color: #4b78b7; 
   height:100%; 
   width: 80%;             
-  padding-right: 20%;
+  padding-right: 5%;
   position: relative;
 }
 
 .tec {
   font-family: ComoMedio;
-  font-size: 28px;
+  font-size: 20px;
   color: #fff;
   padding-left: 2%;
-  padding-right: 15%;
+  padding-right: 1%;
   padding-top: 4%;
-  line-height: 1.5;
+  line-height: 1.3;
   padding-bottom: 20%;
 }
 
 .celular {
     width: 70%;
-    height: 35000%; 
+    width: 53vw;
+    height: 60vh; 
     position: absolute;
-    margin-top: -50%;
-   margin-left: -13%;
+    margin-top: -80px;
+   margin-left: -20px;
    /* transform: rotate(2deg); */
 }
 
@@ -1336,7 +1349,8 @@ footer {
 
   .container-fluid-2 {
     background-color: #4b78b7;
-    height: 100%;
+    height: 50%;
+    margin-bottom: 20%;
     
   }
 
@@ -1360,11 +1374,11 @@ footer {
   }
 
   .notbook {
-    width: 80%; 
+    width: 70%; 
     height: 41000%; 
     position: absolute;
-    margin-top: -12%;
-    margin-left: 30%; 
+    margin-top: -8%;
+    margin-left: 40%; 
     padding-bottom: 1%;
   }
 
@@ -1381,6 +1395,10 @@ footer {
     font-family: ComoBold;
     font-size: 30px;
     padding-left: 0;
+}
+
+.container-fluid-6 {
+  margin-left: 15vw;
 }
 
 .photos {
@@ -1401,7 +1419,7 @@ footer {
 }
 
 .photos .col-sm-2 {
-  width: 18%; 
+  width: 10%; 
 }
 
 .container-fluid-3 {
@@ -1429,10 +1447,10 @@ footer {
   }
 
   .celular {
-    width: 40%;
-    height: 30000%; 
+    width: 50%;
+    height: 150%; 
     position: absolute;
-    margin-top: -25%;
+    margin-top: -5%;
     margin-right: 30%;
    margin-left: 4%;
    /* transform: rotate(2deg); */
@@ -1517,7 +1535,7 @@ footer {
   }
 
   .jumbotron-4 {
-    height: 100%;
+    height: 40%;
     padding-right: 10%;
     padding-bottom:5%; 
   }
@@ -1525,7 +1543,7 @@ footer {
   .col-sm-11 {
       background-color: #4b78b7;
       position: relative;
-      min-height: 100%;
+
       padding-bottom: 1%;
       padding-right: 5%;
       padding-left: 0;
@@ -1548,9 +1566,9 @@ footer {
   .selo {
     position: absolute;
     width: 40%;
-    height: 18000%;
+    height: 22000%;
     margin-left: 65%;
-    margin-top: -30%;
+    margin-top: -37vh;
   }
 
 
@@ -3128,3 +3146,14 @@ footer {
   }
      
 }          
+
+
+.glider-next, .glider-prev{
+  right: 0px;
+  padding-right: 9%;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-right: 9%;
+  left: 0px;
+  color: #d19438;
+}
