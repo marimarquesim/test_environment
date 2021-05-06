@@ -459,6 +459,7 @@ footer {
             .container-fluid-2 {
               background-color: #4b78b7;
               height: 350px;
+              margin-bottom: -72px;
               width: 100%;
             }
           
