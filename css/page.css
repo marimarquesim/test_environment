@@ -542,6 +542,7 @@ footer {
           .container-fluid-3 {
             padding-top: 5%;
             padding-bottom: 2%;
+            margin-bottom: -85px;
           }
           
           .container-fluid-3 .col-sm-8 {
@@ -564,8 +565,8 @@ footer {
           }
           
           .celular {
-            width: 52vw;
-              height: 34vh; 
+            width: 58%;
+            height: 80% ;
               position: absolute;
               margin-top: -27%;
              margin-left: -4vw;
