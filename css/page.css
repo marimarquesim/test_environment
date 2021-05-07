@@ -344,13 +344,14 @@ footer {
 
 .gmap {
   width: 80vw;
-  margin-left: -55px;
+  margin-left: -35px;
 }
 
 @media screen and (min-width: 300px) {
   .glider-next, .glider-prev{
     display: none;
   }
+
 
   .jumbotron {
     background-color: #4b78b7; 
