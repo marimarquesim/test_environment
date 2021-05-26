@@ -14,7 +14,6 @@ body
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
-  background-image: url(../images/fundo_limpo.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -42,13 +41,270 @@ body
   src: url(../fontes/ComoDenso.otf)
 }
 
+/*Efeito Scroll*/
+.section {
+  align-items: center;
+  background: url('../images/Paralaxe\ Mão\ Smartphone\ AS_218001175.png') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+  z-index: -1;
+}
 
+.section1 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center/ cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -2;
+}
+
+.section2 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -3;
+}
+
+.section3 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -4;
+}
+
+.section4 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -5;
+}
+
+.section5 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -6;
+}
+
+.section6 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -7;
+}
+
+.section7 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -8;
+}
+
+.section8 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -9;
+}
+
+.section9 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -10;
+}
+
+.section10 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -11;
+}
+
+.section11 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -12;
+}
+
+.section12 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -13;
+}
+
+.section13 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -14;
+}
+
+.section14 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -15;
+}
+
+.section15 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -16;
+}
+
+.section16 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -17;
+}
+
+.section17 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -18;
+}
+
+.section18 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -19;
+}
+
+.section19 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -20;
+}
 
   /*HEADER*/
   .jumbotron {
-    background-image: url(../images/Paralaxe\ Mão\ Smartphone\ AS_218001175.png);
-    background-size: cover;
-    background-position: fit;
+    background-color: transparent;
     color: #000;
     height: 300px;
     font-family: ComoDenso;
@@ -72,7 +328,7 @@ body
 .jumbotron .titulo-um {
   margin-left: 51%;
   margin-top: -4%;
-  font-size: 25px;
+  font-size: 30px;
   font-family: ComoDenso;
 }
 
@@ -98,20 +354,21 @@ body
 
   .texto-dois {
     color: #fff;
-    margin-left: 5%;
-
+    margin-left: 1%;
+    line-height: 1.3;
+    margin-top: 200px;
   }
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
-    font-size: 23px;
-    margin-left: 5%;
+    font-size: 20px;
+    margin-left: 1%;
   }
 
   .container-fluid .imagem-um {
-    width: 70%;
+    width: 51%;
     height: 70%;
-    margin-left: 17%;
+    margin-left: 20%;
   }
 
 /*BENEFICIOS*/
@@ -119,7 +376,7 @@ body
   .container-fluid-4 .col-sm-12 {
     /* background-image: url(../images/fundo2.png);
     width:100%; */
-    background-color: #d19438;
+    background-color: #F39325;
     height: 80px;
     color: #fff;
     margin-top: 20px;
@@ -154,7 +411,7 @@ body
   font-family: ComoBold;
   text-align: center;
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .predio {
@@ -179,12 +436,13 @@ body
 /*Jhonny*/
  
 .container-fluid-4 {
-  margin-top: -180px;
+  margin-top: -153px;
   margin-bottom: 2%;
 }
 
 .titulo-jhonny {
   color: #fff;
+  margin-top: 242px;
   text-align: center;
   text-transform: uppercase;
   font-family: comoBold;
@@ -196,18 +454,20 @@ body
   font-family: ComoMedio;
   font-size: 20px;
   margin-left: 28px;
+  line-height: 1.3;
   margin-right: 31px;
 }
 
 .foto-jhonny {
-  width: 58%;
-  margin-left: 20%;
+  width: 28%;
+  margin-left: 10%;
+  margin-top: -10px;
 }
 
 .pc-jhonny {
-  width: 81%;
-  margin-top: 94%;
-  margin-left: 94px;
+  width: 44%;
+  margin-top: -39%;
+  margin-left: 51%;
 }
 
 .texto-jhonny-2 {
@@ -217,7 +477,8 @@ body
   text-align: justify;
   margin-left: 23px;
   margin-right: 14px;
-  margin-top: -488px;
+  line-height: 1.3;
+  margin-top: -24px;
   margin-bottom: 190px;
 }
 
@@ -381,7 +642,7 @@ body
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #d19438;
+    background-color: #F39325;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -458,11 +719,9 @@ body
     .jumbotron {
       background-color: transparent;
       color: #000;
-      /* padding: 100px 25px; */
       font-family: ComoDenso;
       margin-bottom: 8%;
       height: 327px;
-      /* margin-right: 5%; */
     }
   
      .capa {
@@ -483,7 +742,7 @@ body
     .jumbotron .texto-um {
       margin-left: 51%;
       font-family: ComoDenso;
-      font-size: 25px;
+      font-size: 20px;
       color: #000;
     }
 
@@ -522,7 +781,7 @@ body
 .container-fluid-4 .col-sm-12 {
   /* background-image: url(../images/fundo2.png);
   width:100%; */
-  background-color: #d19438;
+  background-color: #F39325;
   height: 100%;
   color: #fff;
   margin-top: 20px;
@@ -562,7 +821,7 @@ body
   font-family: ComoBold;
   text-align: center;
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .predio {
@@ -629,7 +888,7 @@ body
 
 .titulo-servico {
   font-family: ComoBold;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
 }
@@ -651,7 +910,7 @@ body
   text-align: center;
   font-family: comoBold;
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .box {
@@ -732,16 +991,14 @@ body
   .jumbotron .texto-um {
     margin-left: 51%;
     font-family: ComoDenso;
-    font-size: 30px;
+    font-size: 20px;
     color: #000;
   }
 
   /*BENEFICIOS*/
 
 .container-fluid-4 .col-sm-12 {
-  /* background-image: url(../images/fundo2.png);
-  width:100%; */
-  background-color: #d19438;
+  background-color: #F39325;
   height: 100%;
   color: #fff;
   margin-top: 20px;
@@ -782,7 +1039,7 @@ body
   font-family: ComoBold;
   text-align: center;
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .predio {
@@ -834,7 +1091,7 @@ body
 
 .titulo-servico {
   font-family: ComoBold;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
 }
@@ -934,7 +1191,7 @@ body
 
   .jumbotron .texto-um {
     margin-left: 51%;
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 34px;
     font-family: ComoDenso;
     color: #000;
@@ -944,7 +1201,7 @@ body
   margin-top: 5px;
   text-align: justify;
   font-family: ComoMedio;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 30%;
   color: #fff;
 }
@@ -958,7 +1215,7 @@ body
 
 .container-fluid .texto-destaque {
   font-family: ComoBold;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 22px;
   margin-right: 22px;
 }
@@ -973,16 +1230,14 @@ body
   /*BENEFICIOS*/
 
 .container-fluid-4 .col-sm-12 {
-  /* background-image: url(../images/fundo2.png);
-  width:100%; */
-  background-color: #d19438;
+  background-color: #F39325;
   height: 100%;
   color: #fff;
   margin-top: 20px;
   background-repeat: no-repeat;
   font-family: ComoBold;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 
@@ -999,7 +1254,7 @@ body
   margin-right: 65px;
   margin-left: 55px;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-family: ComoMedio;
 }
 
@@ -1014,7 +1269,7 @@ body
   font-family: ComoBold;
   text-align: center;
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 5%;
 }
 
@@ -1032,7 +1287,7 @@ body
   margin-left: 44px;
   margin-right: 44px;
   margin-top: -80%;
-  font-size: 30px;
+  font-size: 20px;
   text-align: justify;
   margin-bottom: 20%;
   color: #fff;
@@ -1043,7 +1298,7 @@ body
   color: #fff;
   text-align: justify;
   font-family: ComoMedio;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 28px;
   margin-right: 31px;
 }
@@ -1062,7 +1317,7 @@ body
 
 .texto-jhonny-2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-family: ComoMedio;
   text-align: justify;
   margin-left: 23px;
@@ -1115,62 +1370,11 @@ body
 
 @media screen and (min-width: 700px) {
   /*Clientes*/
- .container-fluid-5 .row {
-  margin-right: 4%;
-  margin-left: 2%;
-} 
-
-.container-fluid-5 {
-  display: flex;
-} 
-
-.container-fluid-51 {
-  display: flex;
-}  
-
-
-.container-fluid-51 .row {
-  margin-right: 3%;
-  margin-left: 3%;
-  margin-top: 44%;
-} 
-
 .clientes-titulo {
   text-align: center;
   font-family: comoBold;
   color: #fff;
   font-size: 20px;
-}
-
-.box {
-  width: 300px;
-  height: 40%;
-  background-color: #4b78b7;
-  border-radius: 15px;
-  margin-left: 5%;
-  margin-bottom: 5%;
-}
-
-.box-especial {
-  margin-left: 67%;
-}
-
- .influencer-foto {
-  width: 51%;
-  height: 27%;
-  margin-left: -142px;
-}
-
-.influencer-foto-2 {
-  width: 50%;
-  height: 28%;
-  margin-left: 1px;
-}
-
-.influencer-foto-3 {
-  width: 50%;
-  height: 26%;
-  margin-left: -137px;
 }
 
  .primo-pc {
@@ -1191,6 +1395,11 @@ body
 }
 
   @media screen and (min-width: 768px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: -87px;
+      margin-top: -11px;
+  }
+
     .jumbotron {
       background-color: transparent;
       color: #000;
@@ -1217,7 +1426,7 @@ body
       margin-left: 51%;
       margin-right: 57px;
       font-family: ComoDenso;
-      font-size: 30px;
+      font-size: 20px;
       color: #000;
     } 
     
@@ -1227,7 +1436,7 @@ body
     margin-top: 5px;
     text-align: justify;
     font-family: ComoMedio;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 24%;
     line-height: 1;
     color: #fff;
@@ -1243,7 +1452,7 @@ body
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 5px;
   }
@@ -1257,16 +1466,14 @@ body
     /*BENEFICIOS*/
 
 .container-fluid-4 .col-sm-12 {
-  /* background-image: url(../images/fundo2.png);
-  width:100%; */
-  background-color: #d19438;
+  background-color: #F39325;
   height: 100%;
   color: #fff;
   margin-top: 20px;
   background-repeat: no-repeat;
   font-family: ComoBold;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 
@@ -1283,7 +1490,7 @@ body
   margin-right: -13%;
   margin-left: 18%;;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-family: ComoMedio;
 }
 
@@ -1298,7 +1505,7 @@ body
   font-family: ComoBold;
   text-align: center;
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 5%;
 }
 
@@ -1316,7 +1523,7 @@ body
   margin-left: -116px;
   margin-right: 71px;
   margin-top: 5%;
-  font-size: 30px;
+  font-size: 20px;
   text-align: justify;
   margin-bottom: 20%;
   color: #fff;
@@ -1328,7 +1535,7 @@ body
   color: #fff;
   text-align: justify;
   font-family: ComoMedio;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 28px;
   margin-right: 31px;
 }
@@ -1348,7 +1555,7 @@ body
 
 .texto-jhonny-2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-family: ComoMedio;
   text-align: justify;
   margin-left: 133px;
@@ -1362,7 +1569,7 @@ body
 
 .titulo-servico {
   font-family: ComoBold;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
 }
@@ -1373,76 +1580,18 @@ body
   text-align: justify;
   margin-left: 6%;
   margin-right: -25%;
-  font-size: 30px;
+  font-size: 20px;
   list-style: inside;
 }
 
 /*CLIENTES*/
-
-.container-fluid-5 .row {
-  margin-right: 4%;
-  margin-left: 2%;
-} 
-
-.container-fluid-5 {
-  display: flex;
-} 
-
-.container-fluid-51 {
-  display: flex;
-}  
-
-
-.container-fluid-51 .row {
-  margin-right: 10%;
-  margin-left: 2%;
-  margin-top: 32%;
-} 
-
 .clientes-titulo {
   text-align: center;
   font-family: comoBold;
   color: #fff;
-  font-size: 20px;
+  font-size: 30px;
 }
 
-.box {
-  width: 300px;
-  height: 38%;
-  background-color: #4b78b7;
-  border-radius: 15px;
-  margin-left: 5%;
-  margin-bottom: 5%;
-}
-
-.box-especial {
-  margin-left: 67%;
-}
-
- .influencer-foto {
-  width: 51%;
-  height: 27%;
-  margin-left: -4px;
-
-}
-
-.influencer-foto-1 {
-  width: 63%;
-  margin-top: 16px;
-  margin-left: -17px;
-}
-
-.influencer-foto-2 {
-  width: 50%;
-  height: 28%;
-  margin-left: 1px;
-}
-
-.influencer-foto-3 {
-  width: 50%;
-  height: 26%;
-  margin-left: -3px;
-}
 
  .primo-pc {
   width: 52%;
@@ -1490,7 +1639,7 @@ body
     .jumbotron .texto-um {
       margin-left: 51%;
       margin-right: 57px;
-      font-size: 30px;
+      font-size: 20px;
       font-family: ComoDenso;
       color: #000;
     } 
@@ -1510,7 +1659,7 @@ body
     margin-left: -116px;
     margin-right: 71px;
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     margin-bottom: 20%;
     color: #fff;
@@ -1523,7 +1672,7 @@ body
   text-align: justify;
   font-family: ComoMedio;
   margin-top: 72px;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 28px;
   margin-right: 31px;
 }
@@ -1543,7 +1692,7 @@ body
 
 .texto-jhonny-2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-family: ComoMedio;
   text-align: justify;
   margin-left: 133px;
@@ -1581,7 +1730,7 @@ body
     .jumbotron .texto-um {
       margin-left: 51%;
       margin-right: 57px;
-      font-size: 30px;
+      font-size: 20px;
       font-family: ComoDenso;
       color: #000;
     } 
@@ -1593,7 +1742,7 @@ body
     margin-top: 5px;
     text-align: justify;
     font-family: ComoMedio;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.3;
     color: #fff;
   }
@@ -1608,7 +1757,7 @@ body
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 5px;
   }
@@ -1635,7 +1784,7 @@ body
     margin-left: -116px;
     margin-right: 15%;
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     margin-bottom: 20%;
     color: #fff;
@@ -1648,7 +1797,7 @@ body
   text-align: justify;
   font-family: ComoMedio;
   margin-top: 15%;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 28px;
   margin-right: 31px;
 }
@@ -1668,7 +1817,7 @@ body
 
 .texto-jhonny-2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-family: ComoMedio;
   text-align: justify;
   margin-left: 133px;
@@ -1680,7 +1829,7 @@ body
 
 .titulo-servico {
   font-family: ComoBold;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
 }
@@ -1691,81 +1840,16 @@ body
   text-align: justify;
   margin-left: 9%;
   margin-right: -24%;
-  font-size: 30px;
+  font-size: 20px;
   list-style: inside;
 }
 
 /*Clientes*/
-/*CLIENTES*/
-
-.container-fluid-5 .row {
-  margin-right: -5%;
-    margin-left: 4%;
-} 
-
-.container-fluid-5 {
-  display: block;
-} 
-
-.container-fluid-51 {
-  display: block;
-}  
-
-
-.container-fluid-51 .row {
-  margin-right: 9%;
-    margin-left: 4%;
-    margin-top: -9%;
-} 
-
- .container-fluid-51 .meio {
-  margin-left: 23%;
-}
-
 .clientes-titulo {
   text-align: center;
   font-family: comoBold;
   color: #fff;
-  font-size: 20px;
-}
-
-.box {
-  width: 300px;
-  height: 523px;
-  background-color: #4b78b7;
-  border-radius: 15px;
-  margin-left: 2%;
-  margin-bottom: 5%;
-}
-
-.box-especial {
-  margin-left: 74%;
-  margin-top: -567px;
-}
-
- .influencer-foto {
-  width: 51%;
-  height: 27%;
-  margin-left: -4px;
-
-}
-
-.influencer-foto-1 {
-  width: 63%;
-  margin-top: 16px;
-  margin-left: -17px;
-}
-
-.influencer-foto-2 {
-  width: 50%;
-  height: 28%;
-  margin-left: 1px;
-}
-
-.influencer-foto-3 {
-  width: 50%;
-  height: 26%;
-  margin-left: -3px;
+  font-size: 30px;
 }
 
  .primo-pc {
@@ -1794,49 +1878,11 @@ body
   }
 
   @media screen and (min-width:1200px) {
-    .container-fluid-5 .row {
-      margin-right: -2%;
-        margin-left: 10%;
-    } 
-
-
-    .container-fluid-51 .row {
-      margin-right: 15%;
-      margin-left: 11%;
-      margin-top: -9%;
-    } 
-    
-     .container-fluid-51 .meio {
-      margin-left: 23%;
-    }
-
-    .box-especial {
-      margin-left: 74%;
-      margin-top: -567px;
-    }
   }
 
 
   @media screen and (min-width:1300px) {
-    .container-fluid-5 .row {
-      margin-right: -117%;
-      margin-left: 6%;
-    } 
 
-    .container-fluid-51 .row {
-      margin-right: -143%;
-    margin-left: 6%;
-    margin-top: 0%;
-    } 
-    
-     .container-fluid-51 .meio {
-      margin-left: 23%;
-    }
-
-    .box-especial {
-      margin-left: 2%;
-      margin-top: 0px;
-    }
 
   }
 
@@ -1851,18 +1897,18 @@ body
       margin-bottom: 8%;
     }
   
-     .capa {
-    width: 521px;
-    margin-left: 46%;
-    margin-top: 130px;
-    margin-bottom: 5%;
+    .capa {
+      width: 521px;
+      margin-left: 22%;
+      margin-top: 152px;
+      margin-bottom: 70%;
     }
   
     .jumbotron .titulo-um {
       margin-left: 51%;
       margin-top: 6%;
       margin-right: 180px;
-      font-size: 40px;
+      font-size: 30px;
       font-family: ComoDenso;
     }
   
@@ -1870,56 +1916,62 @@ body
       margin-left: 51%;
       margin-right: 180px;
       font-family: ComoDenso;
-      font-size: 40px;
+      font-size: 20px;
       color: #000;
     } 
 
 /*sobre*/
 
 .container-fluid {
-  margin-top: 5px;
+  margin-top: -90px;
   text-align: justify;
   font-family: ComoMedio;
-  font-size: 50px;
-  margin-bottom: 12%;
+  font-size: 20px;
+  margin-bottom: -10%;
   line-height: 1.3;
   color: #fff;
 }
 
 .texto-dois {
   color: #fff;
-  margin-left: 10%;
-  margin-right: 5px;
+  margin-left: 31%;
+  margin-right: 4px;
+  margin-top: 7%;
 }
 
 .container-fluid .texto-destaque {
   font-family: ComoBold;
-  font-size: 50px;
-    margin-left: 10PX;
+  font-size: 20px;
+  margin-left: 31%;
   margin-right: 5px;
 }
 
 .container-fluid .imagem-um {
-  width: 80%;
-  height: 80%;
+  width: 68%;
+  height: 68%;
   margin-left: 2%;
 }
 
-    /*BENEFICIOS*/
+/*BENEFICIOS*/
 
-    .container-fluid-4 .col-sm-12 {
-      /* background-image: url(../images/fundo2.png);
-      width:100%; */
-      background-color: #d19438;
-      height: 100%;
-      color: #fff;
-      margin-top: 20px;
-      background-repeat: no-repeat;
-      font-family: ComoBold;
-      text-align: center;
-      font-size: 50px;
-      margin-bottom: 8px;
-    }
+.container-fluid-4 {
+  margin-top: 38px;
+  margin-bottom: 2%;
+}
+
+.container-fluid-4 .col-sm-12 {
+  background-color: #F39325;
+  height: 100%;
+  width: 160%;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: -282px;
+  background-repeat: no-repeat;
+  font-family: ComoBold;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
     
     .titulo-bene {
       padding-top: 15px;
@@ -1934,7 +1986,7 @@ body
       margin-right: -13%;
       margin-left: 18%;;
       color: #fff;
-      font-size: 50px;
+      font-size: 20px;
       font-family: ComoMedio;
     }
   
@@ -1942,32 +1994,32 @@ body
     /*O SERAC*/
     
     .container-fluid-2 {
-      margin-bottom: 90px;
+      margin-bottom: -58px;
     }
     
     .titulo-predio {
       font-family: ComoBold;
       text-align: center;
       color: #fff;
-      font-size: 55px;
-      margin-top: 5%;
+      font-size: 30px;
+      margin-top: 10%;
     }
   
 .predio {
-  width: 90%;
-  height: 80%;
-  margin-left: -40%;
+  width: 96%;
+  height: 90%;
+  margin-left: 40%;
   opacity: 0.5;
-  margin-bottom: 5%;
-  
+  margin-bottom: 52%;
+  margin-top: -85px;
 }
 
 .predio-texto {
   font-family: ComoMedio;
-  margin-left: -23%;
-  margin-right: 13%;
+  margin-left: 0%;
+  margin-right: 30%;
   margin-top: 5%;
-  font-size: 50px;
+  font-size: 20px;
   text-align: justify;
   margin-bottom: 10%;
   color: #fff;
@@ -1976,39 +2028,40 @@ body
 /*jhonny*/
 
 .titulo-jhonny {
-  font-size: 55px;
+  font-size: 30px;
+  margin-top: 4%;
 }
 
 .texto-jhonny {
   color: #fff;
   text-align: justify;
   font-family: ComoMedio;
-  margin-top: 15%;
-  font-size: 50px;
-  margin-left: 28px;
+  margin-top: 8%;
+  font-size: 20px;
+  margin-left: 217px;
   margin-right: 31px;
 }
 
 
 .foto-jhonny {
-  width: 76%;
+  width: 39%;
   margin-left: 5%;
-  margin-top: -17px;
+  margin-top: -27px;
 }
 
 .pc-jhonny {
-  width: 190%;
-  margin-top: 70px;
-  margin-left: -110px;
+  width: 130%;
+  margin-top: -3px;
+  margin-left: 82px;
 }
 
 .texto-jhonny-2 {
   color: #fff;
-  font-size: 50px;
+  font-size: 20px;
   font-family: ComoMedio;
   text-align: justify;
   margin-left: 133px;
-  margin-right: 8%;
+  margin-right:30%;
   margin-top: 41px;
   margin-bottom: 6px; }
 
@@ -2016,7 +2069,7 @@ body
 
  .titulo-servico {
   font-family: ComoBold;
-  font-size: 55px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
 }
@@ -2025,22 +2078,12 @@ body
   color: #fff;
   font-family: ComoMedio;
   text-align: justify;
-  margin-left: 9%;
-  margin-right: -23%;
-  font-size: 50px;
+  margin-left: 32%;
+  margin-right: 7%;
+  font-size: 20px;
   list-style: inside;
 }
 
-
-.container-fluid-5 .row {
-  margin-right: -200%;
-  margin-left: 6%;
-} 
-
-
-.container-fluid-51 .meio {
-  margin-left: 20%;
-}
 
   }
 
