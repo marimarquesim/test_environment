@@ -45,6 +45,22 @@ body
   margin-top: -10px;
 }
 
+
+.textos-celular {
+  font-family: ComoDenso;
+  color: #000;
+  margin-left: -82px;
+  margin-top: -134px;
+}
+
+.titulo-um {
+  font-size: 30px;
+}
+
+.texto-um {
+  font-size: 20px;
+}
+
 /*Efeito Scroll*/
 .section {
   align-items: center;
@@ -307,19 +323,11 @@ body
 }
 
   /*HEADER*/
-  .jumbotron {
-    background-color: transparent;
-    color: #000;
-    height: 300px;
-    font-family: ComoDenso;
-    position:relative;
-    margin-bottom: 10px;
-  }
 
  .capa {
   margin-left: 0px;
   width: 206px;
-  margin-top: 197px;
+  margin-top: 286px;
   margin-bottom: 5px;
 }
 
@@ -353,31 +361,30 @@ body
   .texto-dois {
     color: #fff;
     margin-left: 1%;
-    line-height: 1.3;
+    line-height: 1;
     margin-top: 200px;
   }
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
     font-size: 20px;
+    line-height: 1;
     margin-left: 1%;
   }
 
   .container-fluid .imagem-um {
-    width: 51%;
+    width: 35%;
     height: 70%;
-    margin-left: 20%;
+    margin-left: 27%;
   }
 
 /*BENEFICIOS*/
 
   .container-fluid-4 .col-sm-12 {
-    /* background-image: url(../images/fundo2.png);
-    width:100%; */
     background-color: #F39325;
     height: 80px;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 184px;
     background-repeat: no-repeat;
     font-family: ComoBold;
     text-align: center;
@@ -391,9 +398,8 @@ body
 
   .lista-beneficio {
     list-style: inside;
-   
-    margin-right: 20px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: -24px;
     color: #fff;
     font-size: 20px;
     font-family: ComoMedio;
@@ -413,7 +419,7 @@ body
 }
 
 .predio {
-  width: 60%;
+  width: 66%;
   height: 40%;
   margin-left: -25%;
   opacity: 0.5;
@@ -422,10 +428,11 @@ body
 
 .predio-texto {
   font-family: ComoMedio;
-  margin-left: 22px;
-  margin-right: 19px;
+  margin-left: 8px;
+  margin-right: 9px;
   font-size: 20px;
   margin-top: -90%;
+  line-height: 1;
   text-align: justify;
   margin-bottom: 10%;
   color: #fff;
@@ -451,9 +458,9 @@ body
   text-align: justify;
   font-family: ComoMedio;
   font-size: 20px;
-  margin-left: 28px;
-  line-height: 1.3;
-  margin-right: 31px;
+  margin-left: 4px;
+  line-height: 1;
+  margin-right: 8px;
 }
 
 .foto-jhonny {
@@ -473,9 +480,9 @@ body
   font-size: 20px;
   font-family: ComoMedio;
   text-align: justify;
-  margin-left: 23px;
-  margin-right: 14px;
-  line-height: 1.3;
+  margin-left: 7px;
+  margin-right: 5px;
+  line-height: 1;
   margin-top: -24px;
   margin-bottom: 190px;
 }
@@ -544,31 +551,15 @@ body
 
 
  .primo-pc {
-  width: 52%;
-  height: 23%;
+  width: 119px;
   margin-left: 132px;
-  margin-top: -161px 
+  margin-top: 253px 
 
 }
 
-.pc-1 {
-  width: 51%;
-  height: 23%;
-  margin-left: 132px;
-  margin-top: -82px;
-}
-
-.pc-2 {
-  width: 51%;
-  height: 23%;
-  margin-left: 136px;
-  margin-top: -161px;
-}
-
-.celular-1 {
-  width: 31%;
-  margin-left: 46px;
-  margin-top: 11px;
+.primo-foto {
+  width: 104px;
+  margin-top: -529px;
 }
 
 .texto-primo {
@@ -579,6 +570,85 @@ body
   text-align: justify;
 }
 
+.breno-pc {
+  width: 50px;
+}
+
+.breno-foto  {
+  width: 80px;
+}
+
+.g4-pc {
+  width: 50px;
+}
+
+.g4-foto  {
+  width: 80px;
+}
+
+.joel-celular {
+  width: 80px;
+}
+
+.joel-foto {
+  width: 90px;
+} 
+
+.heyser-celular {
+  width: 90px;
+}
+
+.heyser-foto {
+  width: 90px;
+}
+
+.bruno-celular {
+  width: 90px;
+}
+
+.bruno-foto {
+  width: 90px;
+}
+
+.davi-celular {
+  width: 90px;
+}
+
+.davi-foto {
+  width: 90px;
+}
+
+.ju-celular {
+  width: 90px;
+}
+
+.ju-foto {
+  width: 90px;
+}
+
+.rob-pc {
+  width: 90px;
+}
+
+.rob-foto {
+  width: 90px;
+}
+
+.ana-celular {
+  width: 90px;
+}
+
+.ana-foto {
+  width: 90px;
+}
+
+.ivan-celular {
+  width: 90px;
+}
+
+.ivan-foto {
+  width: 90px;
+}
 
   .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -714,20 +784,21 @@ body
 
   @media screen and (min-width: 400px) {
     /*HEADER*/
-    .jumbotron {
-      background-color: transparent;
-      color: #000;
-      font-family: ComoDenso;
-      margin-bottom: 8%;
-      height: 327px;
-    }
   
      .capa {
       width: 251px;
       margin-bottom: 5px;
       margin-left: 0px;
-      margin-top: 169px;
+      margin-top: 233px;
     }
+
+    .textos-celular {
+      font-family: ComoDenso;
+      color: #000;
+      margin-left: -37px;
+      margin-right: 4px;
+      margin-top: -134px;
+  }
   
     .jumbotron .titulo-um {
       margin-left: 53%;
@@ -964,18 +1035,12 @@ body
 
   @media screen and (min-width: 500px) {
     /*HEADER*/
-  .jumbotron {
-    color: #000;
-    font-family: ComoDenso;
-    margin-bottom: -1%;
-    height: 400px;
-  }
 
    .capa {
     width: 293px;
     margin-left: 0px;
-    margin-top: 136px;
-    margin-bottom: 5%;
+    margin-top: 182px;
+    
   }
 
   .jumbotron .titulo-um {
@@ -1164,18 +1229,12 @@ body
 
   @media screen and (min-width: 600px) {
     /*HEADER*/
-  .jumbotron {
-    color: #000;
-    height: 468px;
-    font-family: ComoDenso;
-    margin-bottom: 8%;
-  }
 
    .capa {
     width: 310px;
     margin-left: 0px;
-    margin-top: 176px;
-    margin-bottom: 5%;
+    margin-top: 161px;
+    
   }
 
   .jumbotron .titulo-um {
@@ -1368,9 +1427,9 @@ body
 @media screen and (min-width: 700px) {
   .capa {
     width: 310px;
-    margin-left: -11%;
-    margin-top: 180px;
-    margin-bottom: 5%;
+    
+    margin-top: 161px;
+    
 }
 
   /*Clientes*/
@@ -1404,18 +1463,13 @@ body
       margin-top: -11px;
   }
 
-    .jumbotron {
-      background-color: transparent;
-      color: #000;
-      font-family: ComoDenso;
-      margin-bottom: 8%;
-    }
+
   
      .capa {
       width: 309px;
-      margin-left: -51px;
-      margin-top: 166px;
-      margin-bottom: 5%;
+      
+      margin-top: 162px;
+      
     }
   
     .jumbotron .titulo-um {
@@ -1621,18 +1675,11 @@ body
   }
 
     /*HEADER*/
-    .jumbotron {
-      background-color: transparent;
-      color: #000;
-      font-family: ComoDenso;
-      font-weight: 20px;
-      margin-bottom: 8%;
-    }
   
      .capa {
       width: 309px;
       margin-left: -12px;
-      margin-top: 167px;
+      margin-top: 172px;
       margin-bottom: 5%;
     }
   
@@ -1712,7 +1759,7 @@ body
   @media screen and (min-width: 900px) {
     .capa {
       width: 309px;
-      margin-left: -12px;
+      margin-left: -83px;
       margin-top: 173px;
       margin-bottom: 5%;
   }
@@ -1722,17 +1769,11 @@ body
 
   @media screen and (min-width: 1020px) {
     /*HEADER*/
-    .jumbotron {
-      background-color: transparent;
-      color: #000;
-      font-family: ComoDenso;
-      margin-bottom: 8%;
-    }
   
      .capa {
-      width: 344px;
+      width: 334px;
       margin-left: -120px;
-      margin-top: 136px;
+      margin-top: 126px;
       margin-bottom: -1%;
     }
   
@@ -1889,10 +1930,10 @@ body
 
   @media screen and (min-width: 1100px) {
     .capa {
-      width: 344px;
-      margin-left: -120px;
-      margin-top: 138px;
-      margin-bottom: -1%;
+    width: 332px;
+    margin-left: -38%;
+    margin-top: 128px;
+    margin-bottom: -1%;
   }
   }
 
@@ -1909,13 +1950,6 @@ body
 
   @media screen and (min-width: 1500px) {
     /*HEADER*/
-    .jumbotron {
-      background-color: transparent;
-      color: #000;
-      height: 800px;
-      font-family: ComoDenso;
-      margin-bottom: 8%;
-    }
   
     .capa {
       width: 521px;
