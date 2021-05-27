@@ -41,6 +41,10 @@ body
   src: url(../fontes/ComoDenso.otf)
 }
 
+.logo-navbar {
+  margin-top: -10px;
+}
+
 /*Efeito Scroll*/
 .section {
   align-items: center;
@@ -312,17 +316,11 @@ body
     margin-bottom: 10px;
   }
 
-.mao-celular {
-  width: 20%;
-  height: 20%;
-}
-
  .capa {
   margin-left: 0px;
-  width: 150px;
-  margin-top: 91px;
+  width: 206px;
+  margin-top: 197px;
   margin-bottom: 5px;
- 
 }
 
 .jumbotron .titulo-um {
