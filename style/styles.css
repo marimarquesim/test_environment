@@ -49,8 +49,8 @@ body
 .textos-celular {
   font-family: ComoDenso;
   color: #000;
-  margin-left: -82px;
-  margin-top: -134px;
+  margin-left: -68px;
+  margin-top: -144px;
 }
 
 .titulo-um {
@@ -325,9 +325,9 @@ body
   /*HEADER*/
 
  .capa {
-  margin-left: 0px;
-  width: 206px;
-  margin-top: 286px;
+  margin-left: -3px;
+  width: 185px;
+  margin-top: 311px;
   margin-bottom: 5px;
 }
 
@@ -795,8 +795,8 @@ body
     .textos-celular {
       font-family: ComoDenso;
       color: #000;
-      margin-left: -37px;
-      margin-right: 4px;
+      margin-left: -26px;
+      margin-right: 8px;
       margin-top: -134px;
   }
   
@@ -826,33 +826,31 @@ body
 
   .texto-dois {
     color: #fff;
-    margin-left: 22px;
-    margin-right: 22px;
-
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: 218px;
   }
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
     font-size: 20px;
-    margin-left: 22px;
-    margin-right: 22px;
+    margin-left: -1%;
+    margin-right: -1%;
   }
 
   .container-fluid .imagem-um {
-    width: 60%;
+    width: 37%;
     height: 60%;
-    margin-left: 20%;
+    margin-left: 35%;
   }
 
 /*BENEFICIOS*/
 
 .container-fluid-4 .col-sm-12 {
-  /* background-image: url(../images/fundo2.png);
-  width:100%; */
   background-color: #F39325;
   height: 100%;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 192px;
   background-repeat: no-repeat;
   font-family: ComoBold;
   text-align: center;
@@ -889,6 +887,7 @@ body
   font-family: ComoBold;
   text-align: center;
   color: #fff;
+  margin-top: -38px;
   font-size: 30px;
 }
 
@@ -1036,6 +1035,15 @@ body
   @media screen and (min-width: 500px) {
     /*HEADER*/
 
+    .textos-celular{
+    font-family: ComoDenso;
+    color: #000;
+    margin-left: -4px;
+    margin-right: 26px;
+    margin-top: -134px;
+}
+
+
    .capa {
     width: 293px;
     margin-left: 0px;
@@ -1056,6 +1064,25 @@ body
     font-size: 20px;
     color: #000;
   }
+
+
+  .texto-dois {
+    color: #fff;
+    margin-left: 7%;
+    margin-right: 9%;
+    margin-top: 307px;
+}
+
+.container-fluid .texto-destaque {
+  margin-left: 7%;
+  margin-right: 9%;
+}
+
+.container-fluid .imagem-um {
+  width: 30%;
+  height: 60%;
+  margin-left: 35%;
+}
 
   /*BENEFICIOS*/
 
@@ -1230,6 +1257,14 @@ body
   @media screen and (min-width: 600px) {
     /*HEADER*/
 
+    .textos-celular {
+      font-family: ComoDenso;
+      color: #000;
+      margin-left: 10px;
+      margin-right: 46px;
+      margin-top: -110px;
+  }
+
    .capa {
     width: 310px;
     margin-left: 0px;
@@ -1264,6 +1299,7 @@ body
 
 .texto-dois {
   color: #fff;
+  margin-top: 222px;
   margin-left: 22px;
   margin-right: 22px;
 
@@ -1277,9 +1313,9 @@ body
 }
 
 .container-fluid .imagem-um {
-  width: 60%;
+  width: 30%;
   height: 60%;
-  margin-left: 20%;
+  margin-left: 36%;
 }
 
 
@@ -1431,6 +1467,13 @@ body
     margin-top: 161px;
     
 }
+.textos-celular {
+  font-family: ComoDenso;
+  color: #000;
+  margin-left: 80px;
+  margin-right: 152px;
+  margin-top: -53px;
+}
 
   /*Clientes*/
 .clientes-titulo {
@@ -1502,22 +1545,21 @@ body
 
   .texto-dois {
     color: #fff;
-    margin-left: 9%;
+    margin-left: 21%;
     margin-right: -31px;
-
-
   }
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 21%;
     margin-right: 5px;
   }
 
   .container-fluid .imagem-um {
-    width: 80%;
+    width: 74%;
     height: 80%;
+    margin-top: 173px;
     margin-left: 2%;
   }
 
@@ -1721,27 +1763,34 @@ body
 
 /*jhonny*/
 
+.titulo-jhonny {
+  margin-top: 56px;
+}
+
 .texto-jhonny {
   color: #fff;
   text-align: justify;
   font-family: ComoMedio;
   margin-top: 72px;
   font-size: 20px;
-  margin-left: 28px;
+  margin-left: 176px;
   margin-right: 31px;
 }
 
+.texto-jhonny {
+  margin-top: 25px;
+}
 
 .foto-jhonny {
-  width: 76%;
+  width: 39%;
   margin-left: 5%;
-  margin-top: -17px;
+  margin-top: 8px;
 }
 
 .pc-jhonny {
-  width: 247%;
-  margin-top: 37px;
-  margin-left: -84px;
+  width: 162%;
+  margin-top: -6px;
+  margin-left: 31px;
 }
 
 .texto-jhonny-2 {
@@ -1759,11 +1808,105 @@ body
   @media screen and (min-width: 900px) {
     .capa {
       width: 309px;
-      margin-left: -83px;
-      margin-top: 173px;
+      margin-left: 22px;
+      margin-top: 174px;
       margin-bottom: 5%;
   }
-    
+  
+  .container-fluid .imagem-um {
+    width: 60%;
+    height: 80%;
+    margin-top: 225px;
+    margin-left: 6%;
+}
+
+.texto-dois {
+  color: #fff;
+  margin-left: 26%;
+  margin-top: 60%;
+  margin-right: -31px;
+}
+
+.container-fluid .texto-destaque {
+  margin-left: 26%;
+}
+
+
+  }
+
+  @media screen and (min-width: 1000px) {
+    .container-fluid .imagem-um {
+      width: 49%;
+    height: 80%;
+    margin-top: 250px;
+    margin-left: 20%;
+  }
+
+  .container-fluid {
+    margin-top: 5px;
+    text-align: justify;
+    font-family: ComoMedio;
+    font-size: 20px;
+    margin-bottom: 16%;
+    line-height: 1;
+    color: #fff;
+}
+
+  .texto-dois {
+    color: #fff;
+    margin-left: 25%;
+    margin-top: 243px;
+    margin-right: -60px;
+}
+
+.container-fluid .texto-destaque {
+  font-family: ComoBold;
+  font-size: 20px;
+  margin-left: 25%;
+  margin-right: 5px;
+}
+
+.container-fluid-4 .col-sm-12 {
+  width: 100vw;
+  margin-top: 57px;
+}
+
+.titulo-predio {
+  font-family: ComoBold;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 39%;
+}
+
+.predio {
+  width: 140%;
+  height: 80%;
+  margin-top: -164px;
+  margin-left: -60%;
+  opacity: 0.5;
+  margin-bottom: 5%;
+}
+
+.predio-texto {
+  font-family: ComoMedio;
+  margin-left: -89px;
+  margin-right: 162px;
+  margin-top: 5%;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 20%;
+  color: #fff;
+}
+
+.titulo-predio {
+  font-family: ComoBold;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 25%;
+}
+
   }
 
 
@@ -1807,24 +1950,23 @@ body
 
   .texto-dois {
     color: #fff;
-    margin-left: 10%;
-    margin-right: 5px;
-    margin-top: 10%;
-
+    margin-left: 28%;
+    margin-right: -18px;
+    margin-top: 51%;
   }
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 28%;
     margin-right: 5px;
   }
 
   .container-fluid .imagem-um {
-    width: 80%;
+    width: 58%;
     height: 80%;
-    margin-left: 2%;
-  }
+    margin-left: 7%;
+}
   
   /*o serac*/
 
@@ -1938,7 +2080,44 @@ body
   }
 
   @media screen and (min-width:1200px) {
-    
+    .capa {
+      width: 332px;
+      margin-left: 23%;
+      margin-top: 128px;
+      margin-bottom: -1%;
+  }
+
+  .textos-celular {
+    font-family: ComoDenso;
+    color: #000;
+    margin-left: 255px;
+    margin-right: 313px;
+    margin-top: -53px;
+}
+
+
+.texto-dois {
+  color: #fff;
+  margin-left: 26%;
+  margin-right: 5px;
+  margin-top: 43%;
+}
+
+.container-fluid .texto-destaque {
+  font-family: ComoBold;
+  font-size: 20px;
+  margin-left: 26%;
+  margin-right: 5px;
+}
+
+
+.container-fluid .imagem-um {
+  width: 53%;
+  height: 80%;
+  margin-top: 216px;
+  margin-left: 2%;
+}
+
   }
 
 
