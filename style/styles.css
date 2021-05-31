@@ -383,6 +383,7 @@ body
   .container-fluid-4 .col-sm-12 {
     background-color: #F39325;
     height: 80px;
+    width: 100vw;
     color: #fff;
     margin-top: 184px;
     background-repeat: no-repeat;
@@ -515,41 +516,6 @@ body
   color: #fff;
   font-size: 20px;
 }
-
-.box {
-  width: 300px;
-  height: 100%;
-  background-color: #4b78b7;
-  border-radius: 15px;
-  margin-left: 10%;
-}
-
- .influencer-foto {
-  width: 50%;
-  height: 40%;
-  margin-left: -140px;
-}
-
-.influencer-foto-1 {
-  width: 63%;
-  margin-top: 16px;
-  margin-left: -141px;
-}
-
-.influencer-foto-2 {
-  width: 50%;
-  height: 40%;
-  margin-left: 1px;
-}
-
-
-.influencer-foto-3 {
-  width: 50%;
-  height: 40%;
-  margin-left: -137px;
-}
-
-
  .primo-pc {
   width: 119px;
   margin-left: 132px;
@@ -562,6 +528,12 @@ body
   margin-top: -529px;
 }
 
+.texto-padrao {
+  color: #fff;
+  font-size: 20px;
+  font-family: ComoNormal;
+}
+
 .texto-primo {
   margin-top: 20px;
   color: #fff;
@@ -569,6 +541,8 @@ body
   font-size: 20px;
   text-align: justify;
 }
+
+
 
 .breno-pc {
   width: 50px;
@@ -979,57 +953,7 @@ body
   color: #fff;
   font-size: 30px;
 }
-
-.box {
-  width: 300px;
-  height: 100%;
-  background-color: #4b78b7;
-  border-radius: 15px;
-  align-items: center;
-  margin-left: 20%;
 }
-
-
-
-.thumbnail {
-  padding: 0 0 15px 0;
-  border: none;
-  align-items: center;
-  border-radius: 0;
-  background-color: #4b78b7;
-}
-
-
-.thumbnail .primo-foto {
-  width: 45%;
-  height: 45%;
-  margin-left: -10px;
-}
-
-.thumbnail .primo-pc {
-  width: 51%;
-  height: 51%;
-  margin-left: 132px;
-  margin-top: -114px; 
-
-}
-
-.texto-primo {
-  margin-top: 25px;
-  color: #fff;
-  font-family: ComoNormal;
-  font-size: 20px;
-  text-align: justify;
-}
-
-.thumbnail .perini-celular {
-  width: 30%;
-  height: 30%;
-  margin-left: 163px;
-  margin-top: -139px;
-}
-
-  }
 
 
   @media screen and (min-width: 500px) {
@@ -1230,7 +1154,6 @@ body
 
 .thumbnail .primo-pc {
   width: 51%;
-  height: 51%;
   margin-left: 132px;
   margin-top: -114px; 
 
@@ -1445,7 +1368,6 @@ body
 
  .primo-pc {
   width: 52%;
-  height: 26%;
   margin-left: 131px;
   margin-top: -168px;
 }
@@ -1485,7 +1407,6 @@ body
 
  .primo-pc {
   width: 52%;
-  height: 20%;
   margin-left: 131px;
   margin-top: -168px;
 }
@@ -1678,8 +1599,8 @@ body
   color: #fff;
   font-family: ComoMedio;
   text-align: justify;
-  margin-left: 6%;
-  margin-right: -25%;
+  margin-left: 12%;
+  margin-right: -6%;
   font-size: 20px;
   list-style: inside;
 }
@@ -1695,7 +1616,6 @@ body
 
  .primo-pc {
   width: 52%;
-  height: 20%;
   margin-left: 131px;
   margin-top: -168px;
 }
@@ -1764,27 +1684,19 @@ body
 /*jhonny*/
 
 .titulo-jhonny {
-  margin-top: 56px;
-}
-
-.texto-jhonny {
-  color: #fff;
-  text-align: justify;
-  font-family: ComoMedio;
-  margin-top: 72px;
-  font-size: 20px;
-  margin-left: 176px;
-  margin-right: 31px;
+  margin-top: 19px;
 }
 
 .texto-jhonny {
   margin-top: 25px;
+  margin-left: 59px;
+  margin-right: -10px;
 }
 
 .foto-jhonny {
-  width: 39%;
-  margin-left: 5%;
-  margin-top: 8px;
+  width: 48%;
+  margin-left: 15%;
+  margin-top: -40px;
 }
 
 .pc-jhonny {
@@ -1794,14 +1706,30 @@ body
 }
 
 .texto-jhonny-2 {
-  color: #fff;
-  font-size: 20px;
-  font-family: ComoMedio;
-  text-align: justify;
   margin-left: 133px;
-  margin-right: 14px;
-  margin-top: 41px;
+  margin-right: 44px;
+  margin-top: 15px;
   margin-bottom: 6px; }
+
+  /*CLIENTES*/
+
+  .texto-primo {
+    margin-top: -227px;
+    margin-right: -123px;
+    margin-left: 173px;
+  }
+
+  .primo-foto {
+    width: 169px;
+    margin-left: 102px;
+    margin-top: -157px;
+}
+
+.primo-pc {
+  width: 55%;
+  margin-left: -51px;
+  margin-top: 8px;
+}
 
   }
 
@@ -2054,7 +1982,6 @@ body
 
  .primo-pc {
   width: 52%;
-  height: 20%;
   margin-left: 131px;
   margin-top: -168px;
 }
