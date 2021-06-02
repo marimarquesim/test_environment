@@ -46,6 +46,21 @@ body
 }
 
 
+.titulo-clientes {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: ComoBold;
+}
+
+.titulo-primo {
+  margin-top: 33px;
+  align-items: center;
+  text-align: center;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
 .textos-celular {
   font-family: ComoDenso;
   color: #000;
@@ -115,6 +130,10 @@ body
 }
 
 .section4 {
+display: none;
+}
+
+.section41 {
   align-items: center;
   background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
   bottom: 0;
@@ -141,6 +160,10 @@ body
 }
 
 .section6 {
+  display: none;
+}
+
+.section61 {
   align-items: center;
   background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
   bottom: 0;
@@ -361,14 +384,14 @@ body
   .texto-dois {
     color: #fff;
     margin-left: 1%;
-    line-height: 1;
+    line-height: 1.1;
     margin-top: 200px;
   }
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
     font-size: 20px;
-    line-height: 1;
+    line-height: 1.1;
     margin-left: 1%;
   }
 
@@ -423,8 +446,6 @@ body
   width: 66%;
   height: 40%;
   margin-left: -25%;
-  opacity: 0.5;
-  
 }
 
 .predio-texto {
@@ -433,7 +454,7 @@ body
   margin-right: 9px;
   font-size: 20px;
   margin-top: -90%;
-  line-height: 1;
+  line-height: 1.1;
   text-align: justify;
   margin-bottom: 10%;
   color: #fff;
@@ -448,7 +469,8 @@ body
 
 .titulo-jhonny {
   color: #fff;
-  margin-top: 242px;
+  font-size: 30px;
+  margin-top: -23px;
   text-align: center;
   text-transform: uppercase;
   font-family: comoBold;
@@ -460,31 +482,31 @@ body
   font-family: ComoMedio;
   font-size: 20px;
   margin-left: 4px;
-  line-height: 1;
+  line-height: 1.1;
   margin-right: 8px;
 }
 
 .foto-jhonny {
-  width: 28%;
-  margin-left: 10%;
+  width: 56%;
+  margin-left: 18%;
   margin-top: -10px;
 }
 
 .pc-jhonny {
-  width: 44%;
-  margin-top: -39%;
-  margin-left: 51%;
+  width: 72%;
+  margin-top: 122%;
+  margin-left: 11%;
 }
 
 .texto-jhonny-2 {
   color: #fff;
   font-size: 20px;
   font-family: ComoMedio;
-  text-align: justify;
+  text-align: left;
   margin-left: 7px;
   margin-right: 5px;
-  line-height: 1;
-  margin-top: -24px;
+  line-height: 1.1;
+  margin-top: -433px;
   margin-bottom: 190px;
 }
 
@@ -499,8 +521,9 @@ body
 
 .servicos {
   color: #fff;
+  line-height: 1.1;
   font-family: ComoMedio;
-  text-align: justify;
+  text-align: left;
   margin-left: -2%;
   margin-right: 7%;
   font-size: 20px;
@@ -517,47 +540,61 @@ body
   font-size: 20px;
 }
  .primo-pc {
-  width: 119px;
-  margin-left: 132px;
-  margin-top: 253px 
-
+  width: 154px;
+  margin-left: 48%;
+  margin-top: 36px;
+  margin-right: -16%;
 }
 
 .primo-foto {
-  width: 104px;
-  margin-top: -529px;
+  width: 111px;
+  margin-top: -127px;
+  margin-left: 4%;
 }
 
 .texto-padrao {
   color: #fff;
   font-size: 20px;
+  line-height: 1.1;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 30px;
+  text-align: justify;
   font-family: ComoNormal;
 }
 
 .texto-primo {
   margin-top: 20px;
   color: #fff;
+  line-height: 1.1;
   font-family: ComoNormal;
   font-size: 20px;
   text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 
 
 .breno-pc {
-  width: 50px;
+  width: 161px;
+  margin-top: 43px;
+  margin-left: 4%;
 }
 
 .breno-foto  {
-  width: 80px;
+  width: 111px;
+  margin-left: 57%;
+  margin-top: -133px;
 }
 
 .g4-pc {
-  width: 50px;
+  width: 125px;
 }
 
 .g4-foto  {
-  width: 80px;
+  width: 153px;
+  margin-left: -16px;
 }
 
 .joel-celular {
@@ -869,9 +906,7 @@ body
   width: 45%;
   height: 45%;
   margin-left: -17%;
-  opacity: 0.5;
   margin-bottom: 5%;
-  
 }
 
 .predio-texto {
@@ -1014,7 +1049,7 @@ body
   background-color: #F39325;
   height: 100%;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 19vh;
   background-repeat: no-repeat;
   font-family: ComoBold;
   text-align: center;
@@ -1059,9 +1094,7 @@ body
   width: 45%;
   height: 45%;
   margin-left: -17%;
-  opacity: 0.5;
   margin-bottom: 5%;
-  
 }
 
 .predio-texto {
@@ -1078,14 +1111,14 @@ body
 /*Jhonny*/
 
 .foto-jhonny {
-  width: 58%;
-  margin-left: 20%;
+  width: 51%;
+  margin-left: 22%;
 }
 
 .pc-jhonny {
   width: 81%;
-  margin-top: 220px;
-  margin-left: 130px;
+  margin-top: 249px;
+  margin-left: 101px;
 }
 
 .texto-jhonny-2 {
@@ -1093,9 +1126,9 @@ body
   font-size: 20px;
   font-family: ComoMedio;
   text-align: justify;
-  margin-left: 23px;
-  margin-right: 14px;
-  margin-top: -488px;
+  margin-left: 30px;
+  margin-right: 35px;
+  margin-top: -474px;
   margin-bottom: 300px;
 }
 
@@ -1115,7 +1148,7 @@ body
   text-align: justify;
   margin-left: 5%;
   margin-right: 10%;
-  font-size: 30px;
+  font-size: 20px;
   list-style: inside;
 }
 
@@ -1126,54 +1159,28 @@ body
   font-size: 20px;
 }
 
-.box {
-  width: 300px;
-  height: 100%;
-  background-color: #4b78b7;
-  border-radius: 15px;
-  align-items: center;
-  margin-left: 25%;
+.primo-foto {
+  width: 111px;
+  margin-top: -9px;
+  margin-left: -51%;
 }
 
-
-
-.thumbnail {
-  padding: 0 0 15px 0;
-  border: none;
-  align-items: center;
-  border-radius: 0;
-  background-color: #4b78b7;
+.breno-foto {
+  width: 124px;
+  margin-left: 55%;
+  margin-top: -144px;
 }
 
-
-.thumbnail .primo-foto {
-  width: 45%;
-  height: 45%;
-  margin-left: -10px;
+.breno-pc {
+  width: 166px;
+  margin-top: 43px;
+  margin-left: 11%;
 }
 
-.thumbnail .primo-pc {
-  width: 51%;
-  margin-left: 132px;
-  margin-top: -114px; 
-
+.texto-padrao {
+  margin-right: 7%;
+    margin-left: 6%;
 }
-
-.texto-primo {
-  margin-top: 25px;
-  color: #fff;
-  font-family: ComoNormal;
-  font-size: 20px;
-  text-align: justify;
-}
-
-.thumbnail .perini-celular {
-  width: 30%;
-  height: 30%;
-  margin-left: 163px;
-  margin-top: -139px;
-}
-
 
   }
 
@@ -1222,17 +1229,16 @@ body
 
 .texto-dois {
   color: #fff;
-  margin-top: 222px;
-  margin-left: 22px;
-  margin-right: 22px;
-
+  margin-top: 252px;
+  margin-left: 50px;
+  margin-right: 45px;
 }
 
 .container-fluid .texto-destaque {
   font-family: ComoBold;
   font-size: 20px;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-left: 50px;
+  margin-right: 45px;
 }
 
 .container-fluid .imagem-um {
@@ -1260,6 +1266,7 @@ body
   padding-top: 15px;
   padding-bottom: 15px;
   margin-left: 10%;
+  margin-top: 18vh;
   margin-right: 10%;
 }
 
@@ -1292,9 +1299,7 @@ body
   width: 50%;
   height: 50%;
   margin-left: -17%;
-  opacity: 0.5;
   margin-bottom: 5%;
-  
 }
 
 .predio-texto {
@@ -1320,24 +1325,20 @@ body
 
 
 .foto-jhonny {
-  width: 58%;
-  margin-left: 20%;
+  width: 45%;
+  margin-left: 29%;
 }
 
 .pc-jhonny {
-  width: 81%;
-  margin-top: 384px;
+  width: 71%;
+  margin-top: 272px;
   margin-left: 174px;
 }
 
 .texto-jhonny-2 {
-  color: #fff;
-  font-size: 20px;
-  font-family: ComoMedio;
-  text-align: justify;
-  margin-left: 23px;
-  margin-right: 14px;
-  margin-top: -692px;
+  margin-left: 46px;
+  margin-right: 30px;
+  margin-top: -445px;
   margin-bottom: 376px;
 }
 
@@ -1422,6 +1423,52 @@ body
 }
 
   @media screen and (min-width: 768px) {
+    .section4 {
+      align-items: center;
+      background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      padding: 1rem;
+      position: sticky;
+      width: 100%;
+      z-index: -5;
+    }
+
+    .section41 {
+      display: none;
+    }
+
+    .section5 {
+      display: none;
+    }
+
+    .section6 {
+      align-items: center;
+      background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      padding: 1rem;
+      position: sticky;
+      width: 100%;
+      z-index: -7;
+    }
+
+    .section61 {
+      display: none;
+    }
+
+    .section7 {
+      display: none;
+    }
+
+    .section8 {
+      display: none;
+    }
+
     .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
       margin-left: -87px;
       margin-top: -11px;
@@ -1460,7 +1507,7 @@ body
     font-family: ComoMedio;
     font-size: 20px;
     margin-bottom: 24%;
-    line-height: 1;
+    line-height: 1.1;
     color: #fff;
   }
 
@@ -1490,7 +1537,7 @@ body
   background-color: #F39325;
   height: 100%;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 63px;
   background-repeat: no-repeat;
   font-family: ComoBold;
   text-align: center;
@@ -1499,8 +1546,9 @@ body
 }
 
 .titulo-bene {
-  padding-top: 15px;
-  padding-bottom: 12px;
+  padding-top: 0px;
+  margin-top: 3vh;
+  padding-bottom: 7px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -1527,22 +1575,21 @@ body
   text-align: center;
   color: #fff;
   font-size: 30px;
-  margin-top: 5%;
+  margin-top: 30%;
 }
 
 .predio {
   width: 170%;
   height: 80%;
   margin-left: -70%;
-  opacity: 0.5;
   margin-bottom: 5%;
-  
+  margin-top: -27%;
 }
 
 .predio-texto {
-  font-family: ComoMedio;
-  margin-left: -116px;
-  margin-right: 71px;
+  font-family: ComoNormal;
+  margin-left: -38px;
+  margin-right: 64px;
   margin-top: 5%;
   font-size: 20px;
   text-align: justify;
@@ -1552,26 +1599,26 @@ body
 
 /*jhonny*/
 
-.texto-jhonny {
-  color: #fff;
-  text-align: justify;
-  font-family: ComoMedio;
-  font-size: 20px;
-  margin-left: 28px;
-  margin-right: 31px;
+.titulo-jhonny {
+  margin-top: 36px;
 }
 
+.texto-jhonny {
+  margin-left: 33px;
+  margin-top: 61px;
+  margin-right: 13px;
+}
 
 .foto-jhonny {
-  width: 76%;
+  width: 61%;
   margin-left: 5%;
-  margin-top: -17px;
+  margin-top: -23px;
 }
 
 .pc-jhonny {
-  width: 247%;
-  margin-top: 167px;
-  margin-left: -39px;
+  width: 216%;
+  margin-top: -5px;
+  margin-left: -36px;
 }
 
 .texto-jhonny-2 {
@@ -1614,21 +1661,206 @@ body
 }
 
 
- .primo-pc {
-  width: 52%;
-  margin-left: 131px;
-  margin-top: -168px;
+.primo-foto {
+  width: 155px;
+  margin-top: -418px;
+  margin-left: 130%;
+}
+
+.primo-pc {
+  width: 245px;
+  margin-left: -37px;
+  margin-top: 149px;
 }
 
 .texto-primo {
-  margin-top: 20px;
-  color: #fff;
-  font-family: ComoNormal;
-  font-size: 20px;
-  text-align: justify;
+  margin-top: 78px;
+  margin-right: 207px;
+  margin-left: -248px;
 }
 
+.breno-foto {
+  width: 155px;
+  margin-left: 130%;
+  margin-top: -418px;
+}
+
+.breno-pc {
+  width: 245px;
+  margin-top: 149px;
+  margin-left: -37px;
+}
+
+.breno-texto {
+  margin-top: 78px;
+    margin-right: 207px;
+    margin-left: -248px;
+}
+
+.g4-foto {
+  width: 271px;
+  margin-left: 108%;
+  margin-top: -565px;
+}
+
+.g4-pc {
+  width: 245px;
+  margin-left: -37px;
+  margin-top: 160px;
+}
+
+.g4-texto {
+  margin-top: 114px;
+  margin-right: 207px;
+  margin-left: -248px;
+}
+
+.joel-texto {
+margin-top: 56px;
+    margin-right: 207px;
+    margin-left: -284px;
+}
+
+.joel-celular {
+  width: 148px;
+  margin-left: 16px;
+  margin-top: -3px;
+}
+
+.joel-foto {
+  width: 155px;
+  margin-top: -401px;
+  margin-left: 130%;
   }
+
+.heyser-texto {
+  margin-top: 56px;
+  margin-right: 207px;
+  margin-left: -284px;
+}
+.heyser-foto {
+  margin-top: -401px;
+  margin-left: 130%;
+  width: 155px;
+}
+.heyser-celular {
+  width: 148px;
+  margin-left: 16px;
+  margin-top: -3px;
+}
+
+.bruno-celular {
+  width: 148px;
+  margin-left: 16px;
+  margin-top: -3px;
+}
+
+.bruno-foto {
+  width: 155px;
+  margin-top: -401px;
+  margin-left: 130%;
+}
+
+.texto-bruno {
+  margin-top: 56px;
+  margin-right: 207px;
+  margin-left: -284px;
+}
+
+.texto-davi {
+  margin-top: 56px;
+  margin-right: 207px;
+  margin-left: -284px;
+}
+
+.davi-foto {
+  width: 155px;
+  margin-top: -401px;
+  margin-left: 130%;
+}
+
+.davi-celular {
+  width: 148px;
+  margin-left: 16px;
+  margin-top: -3px;
+}
+
+.ju-celular {
+  width: 148px;
+  margin-left: 16px;
+  margin-top: -3px;
+}
+
+.ju-foto {
+  width: 155px;
+  margin-top: -401px;
+  margin-left: 130%;
+}
+
+.texto-ju {
+  margin-top: 56px;
+  margin-right: 207px;
+  margin-left: -284px;
+}
+
+.rob-foto {
+  width: 155px;
+  margin-left: 130%;
+  margin-top: -418px;
+}
+
+.rob-pc {
+  width: 245px;
+  margin-top: 149px;
+  margin-left: -37px;
+}
+
+.texto-rob {
+  margin-top: 78px;
+    margin-right: 207px;
+    margin-left: -248px;
+}
+
+.ana-celular {
+  width: 148px;
+  margin-left: 16px;
+  margin-top: -3px;
+}
+
+.ana-foto {
+  width: 155px;
+  margin-top: -401px;
+  margin-left: 130%;
+}
+
+.texto-ana {
+  margin-top: 56px;
+  margin-right: 207px;
+  margin-left: -284px;
+}
+
+
+.ivan-celular {
+  width: 148px;
+  margin-left: 16px;
+  margin-top: -3px;
+}
+
+.ivan-foto {
+  width: 155px;
+  margin-top: -401px;
+  margin-left: 130%;
+}
+
+.texto-ivan {
+  margin-top: 56px;
+  margin-right: 207px;
+  margin-left: -284px;
+}
+
+}
+
+
 
   @media screen and (min-width: 800px) {
     .logo-navbar {
@@ -1665,9 +1897,7 @@ body
     width: 140%;
     height: 80%;
     margin-left: -60%;
-    opacity: 0.5;
     margin-bottom: 5%;
-    
   }
   
   .predio-texto {
@@ -1776,7 +2006,7 @@ body
     font-family: ComoMedio;
     font-size: 20px;
     margin-bottom: 16%;
-    line-height: 1;
+    line-height: 1.1;
     color: #fff;
 }
 
@@ -1812,7 +2042,6 @@ body
   height: 80%;
   margin-top: -164px;
   margin-left: -60%;
-  opacity: 0.5;
   margin-bottom: 5%;
 }
 
@@ -1902,9 +2131,7 @@ body
     width: 100%;
     height: 50%;
     margin-left: -30%;
-    opacity: 0.5;
     margin-bottom: 5%;
-    
   }
   
   .predio-texto {
@@ -1918,38 +2145,40 @@ body
     color: #fff;
   }
 
+  .lista-beneficio {
+    list-style: inside;
+    text-align: justify;
+    margin-right: -13%;
+    margin-left: 29%;
+    color: #fff;
+    font-size: 20px;
+    font-family: ComoMedio;
+}
+
 /*jhonny*/
 
 .texto-jhonny {
-  color: #fff;
-  text-align: justify;
-  font-family: ComoMedio;
   margin-top: 15%;
-  font-size: 20px;
-  margin-left: 28px;
-  margin-right: 31px;
+  margin-left: 147px;
+  margin-right: -19px;
 }
 
 
 .foto-jhonny {
-  width: 76%;
+  width: 43%;
   margin-left: 5%;
   margin-top: -17px;
 }
 
 .pc-jhonny {
-  width: 190%;
-  margin-top: 50px;
-  margin-left: -90px;
+  width: 165%;
+  margin-top: 26px;
+  margin-left: -13px;
 }
 
 .texto-jhonny-2 {
-  color: #fff;
-  font-size: 20px;
-  font-family: ComoMedio;
-  text-align: justify;
   margin-left: 133px;
-  margin-right: 8%;
+  margin-right: 23%;
   margin-top: 41px;
   margin-bottom: 6px; }
 
@@ -1963,11 +2192,9 @@ body
 }
 
 .servicos {
-  color: #fff;
-  font-family: ComoMedio;
   text-align: justify;
-  margin-left: 9%;
-  margin-right: -24%;
+  margin-left: 29%;
+  margin-right: 11%;
   font-size: 20px;
   list-style: inside;
 }
@@ -2044,6 +2271,49 @@ body
   margin-top: 216px;
   margin-left: 2%;
 }
+
+.texto-jhonny {
+  margin-top: 8%;
+  margin-left: 34%;
+  margin-right: -19px;
+}
+
+.foto-jhonny {
+  width: 36%;
+  margin-left: 5%;
+  margin-top: -17px;
+}
+
+.pc-jhonny {
+  width: 123%;
+  margin-top: 26px;
+  margin-left: 41%;
+}
+
+.texto-jhonny-2 {
+  margin-left: 133px;
+  margin-right: 23%;
+  margin-top: 41px;
+  margin-bottom: 6px;
+}
+.texto-primo {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.primo-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.primo-pc {
+  width: 45%;
+  margin-left: 107px;
+  margin-top: 134px;
+}
+
 
   }
 
@@ -2169,7 +2439,6 @@ body
   width: 96%;
   height: 90%;
   margin-left: 40%;
-  opacity: 0.5;
   margin-bottom: 52%;
   margin-top: -85px;
 }
@@ -2246,5 +2515,14 @@ body
 
 
   }
+
+
+@media screen and (min-height: 625px) {
+  .capa {
+    margin-top: 42vh;
+  }
+
+
+}
 
  
