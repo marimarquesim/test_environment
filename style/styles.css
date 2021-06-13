@@ -424,7 +424,34 @@ display: none;
 	z-index: -21;
 }
 
-  /*HEADER*/
+.section21 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -22;
+}
+
+
+.section22 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -23;
+}
+
+/*HEADER*/
 
  .capa {
   margin-left: -3px;
@@ -449,11 +476,11 @@ display: none;
 }
 
 
-  /*Seção um - Sobre*/
+/*Seção um - Sobre*/
 
   .container-fluid {
     margin-top: 24px;
-    text-align: justify;
+    text-align: left;
     font-family: ComoNormal;
     margin-bottom: 167px;
     font-size: 20px;
@@ -463,14 +490,14 @@ display: none;
   .texto-dois {
     color: #fff;
     margin-left: 1%;
-    line-height: 1.1;
+    line-height: 1;
     margin-top: 200px;
   }
 
   .container-fluid .texto-destaque {
     font-family: ComoBold;
     font-size: 20px;
-    line-height: 1.1;
+    line-height: 1;
     margin-left: 1%;
   }
 
@@ -484,8 +511,8 @@ display: none;
 
   .container-fluid-4 .col-sm-12 {
     background-color: #F39325;
-    height: 80px;
-    width: 100vw;
+    height: 70px;
+    width: 104vw;
     color: #fff;
     margin-top: 184px;
     background-repeat: no-repeat;
@@ -496,7 +523,7 @@ display: none;
   }
 
   .titulo-bene {
-    padding-top: 15px;
+    padding-top: 6px;
   }
 
   .lista-beneficio {
@@ -519,10 +546,11 @@ display: none;
   text-align: center;
   color: #fff;
   font-size: 30px;
+  margin-top: -3%;
 }
 
 .predio {
-  width: 66%;
+  width: 78%;
   height: 40%;
   margin-left: -25%;
 }
@@ -549,7 +577,7 @@ display: none;
 .titulo-jhonny {
   color: #fff;
   font-size: 30px;
-  margin-top: -23px;
+  margin-top: 5%;
   text-align: center;
   text-transform: uppercase;
   font-family: comoBold;
@@ -557,24 +585,24 @@ display: none;
 
 .texto-jhonny {
   color: #fff;
-  text-align: justify;
+  text-align: left;
   font-family: ComoMedio;
   font-size: 20px;
   margin-left: 4px;
-  line-height: 1.1;
-  margin-right: 8px;
+  line-height: 1;
+  margin-right: 1px;
 }
 
 .foto-jhonny {
-  width: 56%;
-  margin-left: 18%;
-  margin-top: -10px;
+  width: 50%;
+  margin-left: 21%;
+  margin-top: 10%;
 }
 
 .pc-jhonny {
-  width: 72%;
-  margin-top: 122%;
-  margin-left: 11%;
+  width: 206px;
+  margin-top: 27vh;
+  margin-left: 11%
 }
 
 .texto-jhonny-2 {
@@ -584,9 +612,8 @@ display: none;
   text-align: left;
   margin-left: 7px;
   margin-right: 5px;
-  line-height: 1.1;
-  margin-top: -433px;
-  margin-bottom: 190px;
+  line-height: 1;
+  margin-top: -77vh;
 }
 
 /*SERVIÇOS*/
@@ -634,7 +661,7 @@ display: none;
 .texto-padrao {
   color: #fff;
   font-size: 20px;
-  line-height: 1.1;
+  line-height: 1;
   margin-right: 2%;
   margin-left: 2%;
   margin-top: 30px;
@@ -652,8 +679,6 @@ display: none;
   margin-left: 2%;
   margin-right: 2%;
 }
-
-
 
 .breno-pc {
   width: 161px;
@@ -677,67 +702,94 @@ display: none;
 }
 
 .joel-celular {
-  width: 80px;
+  width: 72px;
+  margin-left: 9%;
 }
 
 .joel-foto {
-  width: 90px;
+  margin-left: 17%;
+  width: 111px;
 } 
 
+.titulo-joel {
+  margin-top: 15%;
+}
+
 .heyser-celular {
-  width: 90px;
+  width: 72px;
+  margin-left: 9%;
 }
 
 .heyser-foto {
-  width: 90px;
+  margin-left: 17%;
+  width: 111px;
 }
 
 .bruno-celular {
-  width: 90px;
+  width: 72px;
+  margin-left: 9%;
 }
 
 .bruno-foto {
-  width: 90px;
+  margin-left: 17%;
+  width: 111px;
 }
 
 .davi-celular {
-  width: 90px;
+  width: 72px;
+  margin-left: 16%;
+  margin-top: 22px;
 }
 
 .davi-foto {
-  width: 90px;
+  margin-left: 17%;
+  width: 111px;
 }
 
 .ju-celular {
-  width: 90px;
+  width: 72px;
+  margin-left: 16%;
+  margin-top: 22px;
 }
 
 .ju-foto {
-  width: 90px;
+  margin-left: 17%;
+  width: 111px;
 }
 
 .rob-pc {
-  width: 90px;
+  width: 154px;
+  margin-left: 48%;
+  margin-top: 36px;
+  margin-right: -16%;
 }
 
 .rob-foto {
-  width: 90px;
+  width: 111px;
+  margin-top: -127px;
+  margin-left: 4%;
 }
 
 .ana-celular {
-  width: 90px;
+  width: 72px;
+  margin-left: 16%;
+  margin-top: 22px;
 }
 
 .ana-foto {
-  width: 90px;
+  margin-left: 17%;
+  width: 111px;
 }
 
 .ivan-celular {
-  width: 90px;
+  width: 72px;
+  margin-left: 16%;
+  margin-top: 22px;
 }
 
 .ivan-foto {
-  width: 90px;
+  margin-left: 17%;
+  width: 111px;
 }
 
   .carousel-control.right, .carousel-control.left {
@@ -973,8 +1025,6 @@ display: none;
   font-family: ComoMedio;
 }
 
-
-
 /*O SERAC*/
 
 .container-fluid-2 {
@@ -990,7 +1040,7 @@ display: none;
 }
 
 .predio {
-  width: 45%;
+  width: 55%;
   height: 45%;
   margin-left: -17%;
   margin-bottom: 5%;
@@ -1025,14 +1075,16 @@ display: none;
 }
 
 .foto-jhonny {
-  width: 58%;
-  margin-left: 20%;
+  width: 39%;
+  margin-left: 32%;
+  margin-top: 3%;
 }
 
+
 .pc-jhonny {
-  width: 81%;
-  margin-top: 270px;
-  margin-left: 130px;
+  width: 249px;
+    margin-top: 335px;
+    margin-left: 130px;
 }
 
 .texto-jhonny-2 {
@@ -1042,10 +1094,9 @@ display: none;
   text-align: justify;
   margin-left: 23px;
   margin-right: 14px;
-  margin-top: -478px;
+  margin-top: -384px;
   margin-bottom: 250px;
 }
-
 
 /*SERVIÇOS*/
 
@@ -1066,7 +1117,6 @@ display: none;
   list-style: inside;
 }
 
-
 /*CLIENTES*/
 
 .clientes-titulo {
@@ -1075,6 +1125,141 @@ display: none;
   color: #fff;
   font-size: 30px;
 }
+.primo-pc {
+  width: 154px;
+  margin-left: 48%;
+  margin-top: 36px;
+  margin-right: -16%;
+}
+
+.primo-foto {
+  width: 111px;
+  margin-top: -127px;
+  margin-left: 15%;
+}
+
+
+.breno-pc {
+  width: 154px;
+  margin-left: 48%;
+  margin-top: 36px;
+  margin-right: -16%;
+}
+
+.breno-foto  {
+  width: 111px;
+  margin-top: -127px;
+  margin-left: 15%;
+}
+
+.g4-pc {
+  width: 154px;
+  margin-left: 48%;
+  margin-top: 36px;
+  margin-right: -16%;
+}
+
+.g4-foto  {
+  width: 184px;
+    margin-top: -127px;
+    margin-left: 3%;
+}
+
+.joel-celular {
+  width: 82px;
+  margin-left: 17%;
+}
+
+.joel-foto {
+  margin-left: 11%;
+  width: 111px;
+} 
+
+.titulo-joel {
+  margin-top: 15%;
+}
+
+.heyser-celular {
+  width: 82px;
+  margin-left: 17%;
+}
+
+.heyser-foto {
+  margin-left: 11%;
+  width: 111px;
+}
+
+.bruno-celular {
+  width: 82px;
+  margin-left: 17%;
+}
+
+.bruno-foto {
+  margin-left: 11%;
+  width: 111px;
+}
+
+.davi-celular {
+  width: 82px;
+  margin-left: 17%;
+  margin-top: 22px;
+}
+
+.davi-foto {
+  margin-left: 11%;
+  width: 111px;
+}
+
+.titulo-davi {
+  margin-top: 45px;
+}
+
+.ju-celular {
+  width: 82px;
+  margin-left: 17%;
+  margin-top: 22px;
+}
+
+.ju-foto {
+  margin-left: 11%;
+  width: 111px;
+}
+
+.rob-pc {
+  width: 154px;
+  margin-left: 48%;
+  margin-top: 36px;
+  margin-right: -16%;
+}
+
+.rob-foto {
+  width: 111px;
+  margin-top: -127px;
+  margin-left: 15%;
+}
+
+.ana-celular {
+  width: 82px;
+  margin-left: 17%;
+  margin-top: 22px;
+}
+
+.ana-foto {
+  margin-left: 11%;
+  width: 111px;
+}
+
+.ivan-celular {
+  width: 82px;
+  margin-left: 17%;
+  margin-top: 22px;
+}
+
+.ivan-foto {
+  margin-left: 11%;
+  width: 111px;
+}
+
 }
 
 
@@ -2592,18 +2777,12 @@ margin-top: 56px;
   margin-top: -9px;
 }
 
+}
 
-
+@media screen and (min-width:1300px) {
   }
 
-
-  @media screen and (min-width:1300px) {
-
-
-  }
-
-
-  @media screen and (min-width: 1500px) {
+ @media screen and (min-width: 1500px) {
     /*HEADER*/
   
     .capa {
@@ -2791,17 +2970,13 @@ margin-top: 56px;
   font-size: 20px;
   list-style: inside;
 }
-
-
-  }
+}
 
 
 @media screen and (min-height: 625px) {
   .capa {
     margin-top: 42vh;
   }
-
-
 }
 
  
