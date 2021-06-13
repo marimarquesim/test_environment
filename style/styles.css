@@ -345,6 +345,19 @@ display: none;
 	z-index: -20;
 }
 
+.section20 {
+  align-items: center;
+  background: url('../images/BackgroundSVG.svg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+	z-index: -21;
+}
+
   /*HEADER*/
 
  .capa {
@@ -2157,6 +2170,10 @@ margin-top: 56px;
 
 /*jhonny*/
 
+.titulo-jhonny {
+  margin-top: 60px;
+}
+
 .texto-jhonny {
   margin-top: 15%;
   margin-left: 147px;
@@ -2165,13 +2182,13 @@ margin-top: 56px;
 
 
 .foto-jhonny {
-  width: 43%;
+  width: 33%;
   margin-left: 5%;
   margin-top: -17px;
 }
 
 .pc-jhonny {
-  width: 165%;
+  width: 110%;
   margin-top: 26px;
   margin-left: -13px;
 }
@@ -2279,13 +2296,13 @@ margin-top: 56px;
 }
 
 .foto-jhonny {
-  width: 36%;
+  width: 33%;
   margin-left: 5%;
   margin-top: -17px;
 }
 
 .pc-jhonny {
-  width: 123%;
+  width: 110%;
   margin-top: 26px;
   margin-left: 41%;
 }
@@ -2313,6 +2330,194 @@ margin-top: 56px;
   margin-left: 107px;
   margin-top: 134px;
 }
+
+.breno-texto {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.breno-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.breno-pc {
+  width: 45%;
+  margin-left: 107px;
+  margin-top: 134px;
+}
+
+
+.g4-texto {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.g4-foto {
+  width: 280px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.g4-pc {
+  width: 45%;
+  margin-left: 107px;
+  margin-top: 134px;
+}
+
+
+.joel-texto {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.joel-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.joel-celular {
+  width: 27%;
+  margin-left: 224px;
+  margin-top: -9px;
+}
+
+.titulo-joel {
+  margin-top: 48px;
+}
+
+.heyser-texto {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.heyser-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.heyser-celular {
+  width: 27%;
+  margin-left: 224px;
+  margin-top: -9px;
+}
+
+.texto-bruno {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.bruno-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.bruno-celular {
+  width: 27%;
+  margin-left: 224px;
+  margin-top: -9px;
+}
+
+.texto-davi {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.davi-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.davi-celular {
+  width: 27%;
+  margin-left: 224px;
+  margin-top: -9px;
+}
+
+.texto-ju {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.ju-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.ju-celular {
+  width: 27%;
+  margin-left: 224px;
+  margin-top: -9px;
+}
+
+
+.texto-rob {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.rob-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.rob-pc {
+  width: 45%;
+  margin-left: 107px;
+  margin-top: 134px;
+}
+
+.texto-ana {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.ana-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.ana-celular {
+  width: 27%;
+  margin-left: 224px;
+  margin-top: -9px;
+}
+
+.texto-ivan {
+  margin-top: 79px;
+  margin-left: -65%;
+  margin-right: 77%;
+}
+
+.ivan-foto {
+  width: 169px;
+  margin-left: 122%;
+  margin-top: -495px;
+}
+
+.ivan-celular {
+  width: 27%;
+  margin-left: 224px;
+  margin-top: -9px;
+}
+
 
 
   }
