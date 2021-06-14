@@ -30,13 +30,12 @@ input[type="submit"] {
   transition: all .3s;
 }
 
+.navbar {
+  border: none;
+  min-height: 46px;
+}
 
-.logo {
-  width: 93px;
-  height: 25px;
-  background: url(../images/logo.png) no-repeat center !important;
-  background-size: contain !important; }
-header {
+navbar {
   position: fixed !important;
   top: 0;
   left: 0;
@@ -49,6 +48,22 @@ header {
   justify-content: center;
   margin: 0;
   border-bottom: 2px solid #6fc0ea; }
+
+  .navbar-brand  {
+    width: 93px;
+      height: 25px;
+      background: url(../images/logo.png) no-repeat center !important;
+      background-size: contain !important;
+      text-indent: -999999px;
+    position: relative;
+    margin-left: 37%;
+    margin-top: 12px;
+  }
+
+  .navbar-default {
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #6fc0ea;
+}
   
   header .menu-button {
     position: absolute;
@@ -86,6 +101,12 @@ header {
     left: 0; }
 
 
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+      margin-right: -15px;
+      margin-left: -15px;
+      border-bottom: 2px solid #6fc0ea;
+  }
+
 
  @font-face {
    font-family: ComoNormal;
@@ -107,9 +128,7 @@ header {
   src: url(../fontes/ComoDenso.otf)
 }
 
-.logo-navbar {
-  margin-top: -10px;
-}
+ 
 
 
 .titulo-clientes {
@@ -815,16 +834,7 @@ display: none;
   width: 111px;
 }
 
-  .carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
-  }
-  .carousel-indicators li {
-    border-color: #f4511e;
-  }
-  .carousel-indicators li.active {
-    background-color: #f4511e;
-  }
+
   .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -873,7 +883,7 @@ display: none;
     background-color: #f4511e;
     color: #fff;
   }
-  .navbar {
+  /* .navbar {
     margin-bottom: 0;
     margin-top: 20px;
     background-color: transparent;
@@ -884,7 +894,7 @@ display: none;
     letter-spacing: 2px;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
-  }
+  } */
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
     padding-bottom: 0px;
@@ -900,9 +910,31 @@ display: none;
     border-bottom: 5px solid #004a9a;
   }
   .navbar-default .navbar-toggle {
-    /* border-color: transparent;
-    color: #fff !important; */
+    border-color: transparent; 
   }
+
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #6fc0ea;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 2px;
+  /* color: #4b78b7; */
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 17px;
+  height: 2px;
+  border-radius: 1px;
+  color: #6fc0ea;
+}
+
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
@@ -947,9 +979,9 @@ display: none;
     }
   }
   @media screen and (max-width: 480px) {
-    .logo {
+     .logo {
       font-size: 150px;
-    }
+    } 
   }
   
 
@@ -2263,6 +2295,11 @@ margin-top: 56px;
   }
 
   @media screen and (min-width: 1000px) {
+    .barradenavegacao {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+    
     .container-fluid .imagem-um {
       width: 49%;
     height: 80%;
@@ -2773,6 +2810,17 @@ margin-top: 56px;
   margin-right: 5px;
 }
 
+.predio-texto {
+  margin-left: 10%;
+  margin-right: 42%;
+}
+
+.predio {
+  width: 163%;
+  height: 50%;
+  margin-left: 47%;
+  margin-bottom: 9%;
+}
 
 .container-fluid .imagem-um {
   width: 53%;
