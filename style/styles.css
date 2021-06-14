@@ -896,8 +896,13 @@ display: none;
     font-family: Montserrat, sans-serif;
   } */
   .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: black;
     padding-bottom: 0px;
+    font-size: 10px !important;
+    
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
   }
   .navbar-nav li a:hover {
     color: #4b78b7 !important;
@@ -911,6 +916,7 @@ display: none;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent; 
+    background-color: transparent;
   }
 
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -3263,6 +3269,7 @@ margin-top: 56px;
  
 .navbar-default {
   padding-right: 8px;
+  background-color: transparent;
 }
 .navbar .navbar-toggle {
   border: none;
@@ -3279,17 +3286,19 @@ margin-top: 56px;
 .side-collapse-container {
   padding-right: 15px;
   padding-left: 15px;
+  
 
 }
 
 
 @media screen and (max-width: 768px) {
   .side-collapse {
-      top: 40px;
+      top: 50px;
       bottom: 0;
       right: 0;
-      width: 256px;
+      width: 100vw;
       position: fixed;
+      background-color: white;
       
       transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
   }
