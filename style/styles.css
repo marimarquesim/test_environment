@@ -13,7 +13,6 @@ body
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -30,72 +29,67 @@ input[type="submit"] {
   transition: all .3s;
 }
 
-
-navbar {
-  position: fixed !important;
+.navbar-default {
+  padding-right: 0px;
+  background-color: transparent;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.navbar-fixed-top {
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background: #FFF !important;
-  z-index: 999999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  border-bottom: 2px solid #6fc0ea; }
+  border-width: 0px 0 0px;
+}
+.navbar .navbar-toggle {
+  border: none;
+}
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  background: #f5f5f5;
+}
+.navbar-header .navbar-toggle .icon-bar {
+  background: #444;
+}
+.navbar-header .navbar-toggle .icon-bar:hover {
+  background: #444;
+}
+.side-collapse-container {
+
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
-  nav .logo {
-    width: 93px;
-      height: 25px;
-      background: url(../images/logo.png) no-repeat center !important;
-      background-size: contain !important;
+@media screen and (max-width: 768px) {
+  .side-collapse {
+      top: 52px;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+    
+      position: fixed;
+      overflow: auto;
+      text-align: right;
+      transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
   }
+  .side-collapse.in {
+      width: 0;
+  }
+  .navbar-nav li.dropdown {
+      padding-right: 0;
+      background-color: white;
+  }
+  .navbar-default {
+      padding-right: 0;
+      background-color: transparent;
+  }
+  .navbar .navbar-default {
+    background-color: white;
+      border-right: 1px solid #ddd;
+  }
+}
 
 
-  
-  /* header .menu-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 19px;
-    color: #6fc0ea; }
-  header nav {
-    position: fixed;
-    top: 60px;
-    left: 100%;
-    width: 100%;
-    height: calc(100vh - 60px);
-    background: #FFF;
-    padding: 20px; }
-    header nav .main-menu {
-      display: block;
-      text-align: right; }
-      header nav .main-menu li {
-        display: block;
-        margin: 0; }
-        header nav .main-menu li a {
-          line-height: 40px;
-          color: #6fc0ea !important; }
-          header nav .main-menu li a:before {
-            display: none; }
-          header nav .main-menu li a:hover {
-            color: #6fc0ea !important; }
-  header.menu-opened nav {
-    left: 0; } */
 
-/* 
-    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-      margin-right: -15px;
-      margin-left: -15px;
-      border-bottom: 2px solid #6fc0ea;
-  } */
 
 
  @font-face {
@@ -118,9 +112,6 @@ navbar {
   src: url(../fontes/ComoDenso.otf)
 }
 
-.logo-navbar {
-  margin-top: -10px;
-}
 
 
 .titulo-clientes {
@@ -880,57 +871,6 @@ display: none;
     background-color: #f4511e;
     color: #fff;
   }
-  /* .navbar {
-    margin-bottom: 0;
-    margin-top: 20px;
-    background-color: transparent;
-    z-index: 10;
-    border: 0;
-    font-size: 10px !important;
-    
-    letter-spacing: 2px;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-  } */
-  .navbar ul li a {
-    color: white;
-    padding-bottom: 0px;
-  }
-  .navbar-nav li a:hover {
-    color: #4b78b7 !important;
-
-    
-  }
-  .navbar-nav li.active a {
-    background-color: transparent !important;
-    
-    border-bottom: 5px solid #004a9a;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: transparent; 
-  }
-
-  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #6fc0ea;
-}
-
-.navbar-toggle .icon-bar+.icon-bar {
-  margin-top: 2px;
-  /* color: #4b78b7; */
-}
-
-.navbar-toggle .icon-bar {
-  display: block;
-  width: 17px;
-  height: 2px;
-  border-radius: 1px;
-  color: #6fc0ea;
-}
 
   footer .glyphicon {
     font-size: 20px;
@@ -965,21 +905,7 @@ display: none;
       -webkit-transform: translateY(0%);
     }
   }
-  @media screen and (max-width: 768px) {
-   .navbar-default {
-     background-color: #fff;
-   }
-   
-   
-    .col-sm-4 {
-      text-align: center;
-      /* margin: 25px 0; */
-    }
-    .btn-lg {
-      width: 100%;
-      margin-bottom: 35px;
-    }
-  }
+
   @media screen and (max-width: 480px) {
     /* .logo {
       font-size: 150px;
@@ -1777,13 +1703,6 @@ display: none;
   display: none;
 }
 
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      margin-left: -87px;
-      margin-top: -11px;
-  }
-
-
-  
      .capa {
       width: 309px;
     margin-top: calc(100vh - 362px);
@@ -2178,10 +2097,6 @@ margin-top: 56px;
 
 
   @media screen and (min-width: 800px) {
-    .logo-navbar {
-      margin-top: 6px;
-      margin-left: 33px;
-  }
 
   .container-fluid-4 {
     margin-top: calc(100vh - 744px);
@@ -3580,65 +3495,6 @@ margin-top: 56px;
 }
 
 
-.navbar-default {
-  padding-right: 8px;
-  background-color: transparent;
-}
-.navbar .navbar-toggle {
-  border: none;
-}
-.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-  background: #f5f5f5;
-}
-
-.side-collapse-container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-::-webkit-scrollbar {
-  width: 12px;
-}
-::-webkit-scrollbar-track {
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  background: #ddd;
-  -webkit-box-shadow: inset 0 0 6px #ddd;
-}
-::-webkit-scrollbar-thumb:window-inactive {
-  background: #ddd;
-}
-@media screen and (max-width: 768px) {
-  .navbar-default {
-    background-color: #fff;
-  }
-  
-  .side-collapse {
-      top: 50px;
-      bottom: 0;
-      right: 0;
-      width: 104vw;
-      position: fixed;
-      overflow: auto;
-      transition: all 0.6s cubic-bezier(.87, -.41, .19, 1.44);
-      background-color: white;
-  }
-  .side-collapse.in {
-      width: 0;
-  }
-  .navbar-nav li.dropdown {
-      padding-right: 0;
-  }
-  .navbar-default {
-      padding-right: 0;
-  }
- 
-}
 input[type="text"],
 select.form-control {
   background: transparent;
