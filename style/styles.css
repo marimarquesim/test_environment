@@ -966,7 +966,7 @@ display: none;
     }
   }
   @media screen and (max-width: 768px) {
-   .navbar-header {
+   .navbar-default {
      background-color: #fff;
    }
    
@@ -3614,6 +3614,10 @@ margin-top: 56px;
   background: #ddd;
 }
 @media screen and (max-width: 768px) {
+  .navbar-default {
+    background-color: #fff;
+  }
+  
   .side-collapse {
       top: 50px;
       bottom: 0;
