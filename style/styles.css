@@ -3344,7 +3344,14 @@ select.form-control:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
+}
+.form-container{
+  width: 400px; margin-left: 40px;
+}
+.custom-footer{
+  height: 100%; padding-top: 100px; background-image: url(../images/section-contact-bg.jpg); justify-content: center;
+  padding-right: 100px;
 }
 
 option {
